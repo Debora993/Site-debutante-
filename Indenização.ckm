@@ -1,0 +1,72 @@
+# Site-debutante-
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Aniversário da Danielle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to right, #e0bbf3, #f7c4e8);
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+  <header class="bg-purple-700 text-white p-6 text-center shadow">
+    <h1 class="text-3xl font-bold">Festa da Danielle!</h1>
+    <p class="text-lg mt-2">Um aniversário cheio de estilo, cores frias e boas risadas!</p>
+  </header>
+
+  <main class="max-w-3xl mx-auto p-6">
+    <section class="bg-white p-6 rounded shadow mb-6">
+      <h2 class="text-2xl font-semibold text-purple-700 mb-2">Sobre a Aniversariante</h2>
+      <p>Danielle veste blusas M, vestidos G e calça 40. Calça sapatos 39 ou 40 e ama roupas nos estilos <strong>midi</strong> e <strong>over-side</strong>!</p>
+      <p class="mt-2">Ela tem alergia a cremes de pele, alguns produtos de skincare e bijuterias, então cuidado na hora de escolher presentes, hein?</p>
+    </section>
+
+    <section class="bg-white p-6 rounded shadow mb-6">
+      <h2 class="text-2xl font-semibold text-purple-700 mb-2">Paleta de Cores & Código de Vestimenta</h2>
+      <p>A festa vai seguir uma paleta linda de cores frias derivadas do <strong>roxo</strong>, <strong>rosa</strong> e <strong>verde</strong> — pense em lavanda, lilás, rosa antigo e verde-menta.</p>
+      <p class="mt-2">O código de vestimenta é <strong>social elegante</strong>, estilo casamento! Abuse da criatividade, mas com elegância.</p>
+      <div class="grid grid-cols-4 gap-4 mt-4">
+        <div class="h-16 bg-purple-300 rounded"></div>
+        <div class="h-16 bg-pink-300 rounded"></div>
+        <div class="h-16 bg-green-200 rounded"></div>
+        <div class="h-16 bg-purple-400 rounded"></div>
+      </div>
+      <p class="mt-4 text-sm text-gray-500">Esses são alguns tons para se inspirar!</p>
+      <div class="grid grid-cols-2 gap-4 mt-6">
+        <img src="https://images.unsplash.com/photo-1542060748-10c28b62716b" alt="Look social lilás" class="rounded shadow">
+        <img src="https://images.unsplash.com/photo-1602810318383-0e04ed1d12e5" alt="Vestido rosa social" class="rounded shadow">
+      </div>
+    </section>
+
+    <section class="bg-white p-6 rounded shadow mb-6">
+      <h2 class="text-2xl font-semibold text-purple-700 mb-2">Sugestões de Presentes</h2>
+      <ul class="list-disc list-inside">
+        <li>Fones de ouvido estilosos (porque música é vida!)</li>
+        <li>Roupas midi ou over-side — ela ama esse visual!</li>
+        <li>Materiais artísticos para soltar a criatividade</li>
+        <li>Livros criativos ou agendas bonitas</li>
+      </ul>
+      <div class="grid grid-cols-2 gap-4 mt-4">
+        <img src="https://images.unsplash.com/photo-1616627561545-805b3a0ff9a0" alt="Fones de ouvido" class="rounded shadow">
+        <img src="https://images.unsplash.com/photo-1580894894510-43960e5bd7d4" alt="Materiais artísticos" class="rounded shadow">
+      </div>
+      <p class="mt-2 italic text-sm">Evite cremes e bijuterias para não causar alergias, ok?</p>
+    </section>
+
+    <section class="bg-white p-6 rounded shadow">
+      <h2 class="text-2xl font-semibold text-purple-700 mb-2">Mensagem Especial</h2>
+      <p>Danielle, você é luz por onde passa! Que esse novo ciclo venha com muita cor, amor, arte e música — tudo do jeitinho que você ama. Feliz aniversário!</p>
+      <p class="mt-2">Agora bora comemorar com looks lindos e muitos presentes incríveis!</p>
+    </section>
+  </main>
+
+  <footer class="bg-purple-700 text-white p-4 text-center text-sm">
+    © 2025 Festa da Danielle. Criado com amor e estilo.
+  </footer>
+</body>
+</html>
